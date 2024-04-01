@@ -1,0 +1,8 @@
+.idea/
+.ipynb_checkpoints/
+.python-version
+*.llamafile
+*.log
+*~
+storage/
+venv/
