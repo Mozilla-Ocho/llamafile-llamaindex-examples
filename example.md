@@ -103,7 +103,7 @@ chmod +x TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
 
 Now, we'll show how to use LlamaIndex with your llamafile to build a research assistant to help you learn about some topic of interest--for this post, we chose [homing pigeons](https://en.wikipedia.org/wiki/Homing_pigeon). We'll show how to prepare your data, index into a vector store, then query it. 
 
-One of the nice things about running an LLM locally is privacy. You can mix both both "public data" like Wikipedia pages and "private data" without worrying about sharing your data with a third party. Private data could include e.g. your private notes on a topic or PDFs of classified content. As long as you use a local LLM (and a local vector store), you won't have to worry about leaking data. Below, we'll show how to combine both types of data. Our vector store will include Wikipedia pages, an Army manual on caring for homing pigeons, and some brief notes we took while we were reading about this topic. 
+One of the nice things about running an LLM locally is privacy. You can mix both "public data" like Wikipedia pages and "private data" without worrying about sharing your data with a third party. Private data could include e.g. your private notes on a topic or PDFs of classified content. As long as you use a local LLM (and a local vector store), you won't have to worry about leaking data. Below, we'll show how to combine both types of data. Our vector store will include Wikipedia pages, an Army manual on caring for homing pigeons, and some brief notes we took while we were reading about this topic. 
 
 To get started, download our example data:
 
@@ -227,7 +227,7 @@ index.storage_context.persist(persist_dir="./storage")
 
 ### Query your research assistant
 
-Now, we can ask some questions about homing pigeons.
+Finally, we're ready to ask some questions about homing pigeons.
 
 
 
