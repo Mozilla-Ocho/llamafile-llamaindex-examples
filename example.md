@@ -11,6 +11,8 @@ There are a few reasons why you might want to run an LLM on your laptop, includi
 
 In this blog post, we'll show how to set up a llamafile and use it to run a local LLM on your computer. Then, we'll show how to use LlamaIndex with your llamafile as the LLM & embedding backend for a local RAG-based research assistant. You won't have to sign up for any cloud service or send your data to any third party--everything will just run on your laptop.
 
+Note: You can also get all of the example code below as a Jupyter notebook from our [GitHub repo](https://github.com/Mozilla-Ocho/llamafile-llamaindex-example).
+
 ## Download and run a llamafile
 
 First, what is a llamafile? A llamafile is an executable LLM that you can run on your own computer. It contains the weights for a given open source LLM, as well as everything needed to actually run that model on your computer. There's nothing to install or configure (with a few caveats, discussed [here](https://github.com/Mozilla-Ocho/llamafile?tab=readme-ov-file#gotchas)). 

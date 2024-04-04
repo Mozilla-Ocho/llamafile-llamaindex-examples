@@ -1,10 +1,15 @@
 # llamafile/llama-index integration example code
 
-Install prereqs:
+Setup:
 
-```
+```bash
+# first activate virtualenv or conda
+# then install requirements
 pip install -r requirements.txt
 ```
 
-* Example notebook: [`example.ipynb`](example.ipynb)
+Start the example notebook:
 
+```bash
+jupyter notebook example.ipynb
+```
