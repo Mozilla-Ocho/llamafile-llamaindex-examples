@@ -245,10 +245,6 @@ print(query_engine.query("What were homing pigeons used for?"))
 <CodeOutputBlock lang="python">
 
 ```
-    /Users/ksilverstein/dev/llamafile-examples/integrations/llama-index/venv/lib/python3.11/site-packages/llama_index/core/base/embeddings/base.py:58: RuntimeWarning: invalid value encountered in scalar divide
-      return product / norm
-
-
     Homing pigeons were used for a variety of purposes, including military reconnaissance, communication, and transportation. They were also used for scientific research, such as studying the behavior of birds in flight and their migration patterns. In addition, they were used for religious ceremonies and as a symbol of devotion and loyalty. Overall, homing pigeons played an important role in the history of aviation and were a symbol of the human desire for communication and connection.
 ```
 
